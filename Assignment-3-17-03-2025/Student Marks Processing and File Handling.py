@@ -32,6 +32,6 @@ if marks:
     print(f"\nAverage Marks: {avg:.2f}")
     filename = "marks.txt"
     save_marks(filename, marks)
-    print("\nReading marks from file...")
+    print("\nReading marks from file")
     print("Read Marks:", read_marks(filename))
 
