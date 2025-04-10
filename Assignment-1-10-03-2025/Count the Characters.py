@@ -7,7 +7,7 @@
 def count_characters(message):
     char_count = {}
     for char in message:
-        if char in char_count:
+        if char in char_count: 
             char_count[char] += 1
         else:
             char_count[char] = 1
