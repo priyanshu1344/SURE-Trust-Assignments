@@ -7,7 +7,7 @@ sales_data = pd.DataFrame({
     "Units Sold": [35, 25, 50, 40, 30]
 })
 
-print("First 5 rows of the DataFrame:")
+print("First 5 rows of the DataFrame:") 
 print(sales_data.head())
 
 print("\nShape of the DataFrame (rows, columns):", sales_data.shape)
