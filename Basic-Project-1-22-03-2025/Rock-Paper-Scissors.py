@@ -2,7 +2,7 @@ import random
 
 def get_computer_choice(player_history):
     if len(player_history) > 1:
-        most_recent = player_history[-1]
+        most_recent = player_history[-1] 
         if most_recent == "rock":
             return "paper"  
         elif most_recent == "paper":
