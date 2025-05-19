@@ -4,7 +4,7 @@
 
 
 
-def count_characters(message):
+def count_characters(message): 
     char_count = {}
     for char in message:
         if char in char_count: 
