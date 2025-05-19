@@ -7,5 +7,5 @@ def is_pangram(sentence):
     letters_found = {char.lower() for char in sentence if char.isalpha()}
     return len(letters_found) == 26
 
-sentence = input("Enter a sentence: ")
+sentence = input("Enter a sentence: ") 
 print(is_pangram(sentence))
