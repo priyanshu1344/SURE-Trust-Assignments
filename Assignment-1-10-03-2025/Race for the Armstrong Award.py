@@ -8,7 +8,7 @@ def is_armstrong(number):
     total = 0
     for d in digits:
         total += d ** power
-    return total == number
+    return total == number 
 
 number = int(input("Enter a number: "))
 print("Number is Armstrong" if is_armstrong(number) else "Number is not Armstrong")
